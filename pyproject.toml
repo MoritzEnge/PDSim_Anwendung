@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools >= 61.0","cython >= 3.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "PDSim_Anwendung"
+version = "0.1.0dev1"
+requires-python = ">= 3.12"
+dependencies = [
+  "numpy",
+  "pdsim",
+  "tqdm",
+  "pandas",
+  "matplotlib"
+]
